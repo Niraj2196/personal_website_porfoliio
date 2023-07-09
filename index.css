@@ -518,6 +518,9 @@ section .title::after{
     width: 100%;
     margin-bottom: 15px;
 }
+.required{
+ color: red;
+}
 .contact .right form .textarea{
     height: 80px;
     width: 100%;
@@ -545,9 +548,8 @@ section .title::after{
   padding-top: 10px;
   resize: none;
 }
-.required{
- color: red;
-}
+
+
 .contact .right form .button-area{
   display: flex;
   align-items: center;
