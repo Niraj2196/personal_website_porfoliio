@@ -38,17 +38,17 @@ html{
 
 /* all similar content styling codes */
 section{
-    padding: 0;
+    padding: 10px;
 }
 .max-width{
     max-width: 1300px;
-    padding: 0 80px;
+    padding:  180px;
     margin: auto;
 }
 .about, .services, .skills, .team, .contact, footer{
     font-family: 'Belanosima', sans-serif;
     font-weight: 24px;
-    font-text: gap 40px;
+    font-text: gap 0px;
 }
 .about .about-content,
 .services .serv-content,
