@@ -48,6 +48,7 @@ section{
 .about, .services, .skills, .team, .contact, footer{
     font-family: 'Belanosima', sans-serif;
     font-weight: 24px;
+    font-text: gap 40px;
 }
 .about .about-content,
 .services .serv-content,
@@ -111,9 +112,7 @@ section .title::after{
     color: #fff;
     font-size: 35px;
     font-weight: 600;
-    margin:0;
-    padding:0;
-    
+    font-text:left;
 }
 .navbar .logo a span{
     color: crimson;
