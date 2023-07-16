@@ -518,9 +518,11 @@ section .title::after{
     width: 100%;
     margin-bottom: 15px;
 }
-.required{
- color: red;
-}
+ .fieldEmail:after {
+    content:" *";
+    color: red;
+  }
+  
 .contact .right form .textarea{
     height: 80px;
     width: 100%;
