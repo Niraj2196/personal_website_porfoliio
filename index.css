@@ -518,7 +518,7 @@ section .title::after{
     width: 100%;
     margin-bottom: 15px;
 }
- .fieldEmail:after {
+ .fieldEmail .required:after {
     content:" *";
     color: red;
   }
